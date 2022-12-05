@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <title>Prompt</title>
+<body>
+ <script language="JavaScript">
+  var nama = prompt('Ketik nama Anda:');
+  document.write ("Selamat datang: "+nama+" <br>");
+ </script>
+  <head>
+    <title>Project Kelompok 3</title>
+    <meta charset="utf-8" />
+    <meta lang="en" />
+    <meta name="author" content="Project Kelompok 3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+    <!--The below code is for importing google web fonts in html-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/workslider.css" type="text/css" />
+    <script src="js/formValidate.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script> 
+    <script src="js/prompt.js" type="text/javascript"></script>
+  </head>
+  <style>
+    /*Internal CSS*/
+    #time {
+      float: right;
+      font-size: 30px;
+      margin: 10px;
+      font-family: "kelly slab";
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    @media only screen and (max-width: 800px) {
+      #greet {
+        visibility: hidden;
+      }
+      #time {
+        margin: auto;
+        font-family: "kelly slab";
+      }
+    }
+    #greet {
+      font-size: 25px;
+      font-family: audiowide;
+      position: absolute;
+      left: 50%;
+      top: 2%;
+      font-weight: bold;
+    }
+
+    #center {
+      text-align: center;
+      padding: 30px;
+    }
+  </style>
+  <body>
+    <!--Header Section-->
+    <div class="header">
+      <!--Inline css in below line-->
+      <span
+        style="font-size: 40px; cursor: pointer; margin-left: 10px"
+        onclick="openNav()"
+        id="open"
+        >&#9776;
+      </span>
+      <a href="home.html"><img src="C:\Users\Sulfi Fatiniyah H\Documents\Kelompok1\stick1.png" /></a>
+      <span class="greeting" id="greet"></span>
+      <span id="time"></span>
+    </div>
+
+    <!--Navigation Section-->
+    <div id="myNav" class="navbar">
+      <a
+        href="javascript:void(0)"
+        class="closebtn"
+        onclick="closeNav()"
+        id="close"
+        >&times;</a
+      >
+      <div class="navbar-content">
+        <a href="#home" id="active">Home</a>
+        <a href="https://www.idntimes.com/tech/games/abraham-herdyanto/game-terpopuler-di-dunia">Daftar 10 Game Terbaik</a>
+        <a href="https://www.bilibili.tv/id/anime">Daftar Anime Terpopuler</a>
+        <a href="contact.html">contact</a>
+      </div>
+    </div>
+
+    <!--Banner Section-->
+    <div class="banner-area" id="home">
+      <!-- <div class="title-image"></div> -->
+      <div class="title-name">
+        <p class="name">
+          <span id="iden-name"></span><br />
+          <span class="subtitle1" id="subtitle1">Wellcome in the website</span>
+          <span class="subtitle2" id="subtitle2"
+            >project &nbsp;kelompok3</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <!--Services Section-->
+    <div class="service-area" id="services">
+      <div class="text-part">
+      <h1 id="center" >Apa yang kamu cari?</h1>
+        <div class="container">
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Anime</h3>
+              <p>
+                Anime adalah animasi asal Jepang yang digambar 
+                dengan tangan maupun menggunakan teknologi komputer. 
+                Kata anime merupakan singkatan dari animation dalam 
+                bahasa Inggris, yang merujuk pada semua jenis animasi. 
+                Di luar Jepang, istilah ini digunakan secara spesifik 
+                untuk menyebutkan segala animasi yang diproduksi di Jepang.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Game</h3>
+              <p>
+                Game adalah sesuatu yang dapat dimainkan dengan aturan 
+                tertentu sehingga ada yang menang dan ada yang kalah, 
+                biasanya dalam konteks tidak serius atau dengan tujuan 
+                refreshing.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"></div>
+            <div class="content">
+              <h3>Daftar Akun</h3>
+              <p>
+                Bantu Support kami dengan mendaftar sebagai member kami di web dan aplikasi kami agar kami terus semangat update list list game dan anime ter update
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Who do I work with, Section-->
+    <div class="corpwork-area" id="corpwork">
+      <div class="text-part">
+        <!--Aligning header to center using inline css-->
+        <h1 style="text-align: center">Apa yang kamu butuhkan?</h1>
+        <center>
+          <div class="imgrel fade">
+            <img src="C:\Users\Sulfi Fatiniyah H\Documents\Kelompok1\images\Iconslogo\anime1.jpg" />
+            <p>ANIME</p>
+          </div>
+
+          <div class="imgrel fade">
+            <img src="C:\Users\Sulfi Fatiniyah H\Documents\Kelompok1\images\Iconslogo\anime2.jpg" />
+            <p>ANIME</p>
+          </div>
+
+          <div class="imgrel fade">
+            <img src="C:\Users\Sulfi Fatiniyah H\Documents\Kelompok1\images\Iconslogo\game1.jpg" />
+            <p>GAME</p>
+          </div>
+
+          <div class="imgrel fade">
+            <img src="C:\Users\Sulfi Fatiniyah H\Documents\Kelompok1\images\Iconslogo\game2.jpg" />
+            <p>GAME</p>
+          </div>
+        </center>
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+    </div>
+
+    <!--About Section-->
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="contact-area" id="contact">
+      <div class="text-part">
+        <h1>Contact Me</h1>
+        <div class="cont-form">
+          <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Name *" /><br />
+            <input type="text" id="email" placeholder="Email *" />
+            <input type="text" id="subject" placeholder="Subject *" /><br />
+            <input
+              type="text"
+              placeholder="Phone No (Optional)"
+              id="phone"
+            /><br />
+            <textarea id="message" placeholder="Message *"></textarea><br />
+            <button type="submit" id="btn-submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--This is for playing alert sound-->
+    <audio id="alert" src="sound/alerts.mp3" preload="auto"></audio>
+    <audio id="success" src="sound/success.mp3" preload="auto"></audio>
+
+    <div class="cta hide" id="goup">
+      <a href="#home"><img src="images/Iconslogo/arrup.png" /></a>
+    </div>
+
+    <!--Copyright Information-->
+    <div class="copyright">
+      <p>
+        &copy; 2022
+        <a href="https://adhikarikrishna1.com.np">Kelompok 3</a>
+      </p>
+    </div>
+    <script>
+      //handles goup button
+      myID = document.getElementById("goup");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "cta show";
+        } else {
+          myID.className = "cta hide";
+        }
+      };
+      window.addEventListener("scroll", myScrollFunc);
+
+      //The below line dynamically change the name in banner area.
+      document.getElementById("iden-name").innerHTML = "Project Kelompok 3";
+
+      /*
+                The below code is used to slide/change image infinitely using for loop.
+                A single image will be available only for 2.5s and after that it automatically changes another image
+            */
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("imgrel");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2500);
+      }
+
+      //The below is used to make navigation bar sticky
+      //when we scroll up the navigation bar will stick on top of page
+      window.onscroll = function () {
+        stickFunction();
+      };
+      var navbar = document.getElementById("myNav");
+      var sticky = navbar.offsetTop;
+
+      function stickFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
